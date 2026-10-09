@@ -105,7 +105,7 @@ Dentro do escopo desta replicação, declaro as seguintes limitações:
 1. O primeiro pipeline usou `output_hidden_states=True`; no Qwen2.5 com `device_map="auto"` em T4 x2 a tupla voltava truncada e a célula morria com `IndexError: tuple index out of range`. Só estabilizou interceptando a camada 14 com `register_forward_hook`.
 2. Um hook não removido após um crash de kernel ficou vivo na VRAM contaminando execuções seguintes. Desde então toda célula começa com purga explícita de `_forward_hooks`.
 3. A primeira matriz de cosseno saiu com diagonal 1.0006 — cosseno de um vetor consigo mesmo acima de 1 é impossível; era aritmética float16. Recalculado em float32, cravou em 1.0000.
-4. Os tokens em mandarim do Qwen renderizaram como `□□` na Figura 2 porque a fonte padrão do Kaggle não tem glifos CJK; resolvido instalando `fonts-noto-cjk`.
+4. Na primeira rodada de testes no Kaggle com o Qwen2.5, a projeção de vocabulário renderizou tokens em mandarim como □□ porque a fonte padrão do Linux não tinha glifos CJK; resolvido com fonts-noto-cjk, e posteriormente validado em inglês puro no Llama-3.2.
 5. Sem fixação de semente, a amostragem estocástica (`temperature=0.7`) gerava saídas basais ($\alpha = 0.0$) distintas para cada eixo. O travamento em `seed=42` não foi apenas um aceno a Douglas Adams: foi o que forçou o gerador a reiniciar do mesmo estado de memória em todos os testes, cravando a entropia basal exatamente em 1.7413 nats no Qwen e 1.5152 nats no Llama para todos os seis eixos.
 
 ---
