@@ -113,7 +113,7 @@ Dentro do escopo desta replicação, declaro as seguintes limitações:
 ### REFERÊNCIAS BIBLIOGRÁFICAS
 
 1. ADAMS, Douglas. *The Hitchhiker's Guide to the Galaxy*. London: Pan Books, 1979. (Base conceitual para os vetores de controle *Marvin* e *Vogon*).
-2. CHURCH OF THE FLYING SPAGHETTI MONSTER. *The Gospel of the Flying Spaghetti Monster*. Disponível em: <https://www.venganza.org/>. Acesso em: 09 out. 2026. (Base conceitual para o vetor de controle *Espaguete*).
+2. CHURCH OF THE FLYING SPAGHETTI MONSTER. *The Church of the Flying Spaghetti Monster Official Website*. Disponível em: <https://www.spaghettimonster.org/> e <https://www.venganza.org/>. Acesso em: 09 out. 2026. (Base canônica e fundacional para o vetor de controle *Espaguete*).
 3. HENDERSON, Bobby. *The Gospel of the Flying Spaghetti Monster*. New York: Villard Books, 2006.
 4. POPPER, Karl. *The Logic of Scientific Discovery*. London: Routledge, 1959.
 5. RYLE, Gilbert. *The Concept of Mind*. London: Hutchinson, 1949.
