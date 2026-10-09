@@ -5,9 +5,9 @@ authors:
   - family-names: "Barbosa Noia"
     given-names: "Naygno"
     affiliation: "Centro Universitário UFBRA — Ciência da Computação"
-doi: 10.5281/zenodo.XXXXXXX # SUBSTITUA 'XXXXXXX' PELO NÚMERO DO SEU DOI DO ZENODO
+doi: 10.5281/zenodo.XXXXXXX
 repository-code: "https://github.com/naygno/the-spaghetti-axis"
-url: "https://zenodo.org/doi/10.5281/zenodo.XXXXXXX"
+url: "https://zenodo.org/doi/10.5281/zenodo.23267761"
 type: article
 keywords:
   - representation engineering
