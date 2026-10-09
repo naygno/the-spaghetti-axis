@@ -31,6 +31,7 @@
 *.vrb
 *.upa
 *.upb
+*.pdf
 
 # Arquivos de backup gerados por editores LaTeX (TeXstudio, TeXworks, Kile)
 *~
@@ -68,11 +69,8 @@ $RECYCLE.BIN/
 *.swo
 
 # ==============================================================================
-# REGRAS DE PRESERVAÇÃO EXPLÍCITA
+# PRESERVAÇÃO EXPLÍCITA DE ARQUIVOS-BASE
 # ==============================================================================
-# Garante que os arquivos PDF finais e imagens cruciais NUNCA sejam ignorados
-!main.pdf
-!the-spaghetti-axis.pdf
 !*.png
 !*.csv
 !*.tex
