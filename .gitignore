@@ -1,0 +1,81 @@
+# ==============================================================================
+# GITIGNORE: LATEX, PYTHON E REPOSITÓRIOS CIENTÍFICOS
+# Repositório: naygno/the-spaghetti-axis
+# ==============================================================================
+
+# --- ARQUIVOS TEMPORÁRIOS DE COMPILAÇÃO LATEX ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.toc
+*.vrb
+*.upa
+*.upb
+
+# Arquivos de backup gerados por editores LaTeX (TeXstudio, TeXworks, Kile)
+*~
+*.bak
+*.sav
+*.orig
+
+# --- AMBIENTE PYTHON E JUPYTER (Kaggle / Local) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.pyc
+
+# Ambientes virtuais (caso utilize venv local)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- SISTEMA OPERACIONAL (Windows e Linux) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- ARQUIVOS DE CONFIGURAÇÃO DE IDES ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================================================================
+# REGRAS DE PRESERVAÇÃO EXPLÍCITA
+# ==============================================================================
+# Garante que os arquivos PDF finais e imagens cruciais NUNCA sejam ignorados
+!main.pdf
+!the-spaghetti-axis.pdf
+!*.png
+!*.csv
+!*.tex
+!*.md
+!*.ipynb
+!CITATION.cff
