@@ -1,16 +1,19 @@
 cff-version: 1.2.0
-message: "Se você utilizar este código ou artigo, por favor cite-o através do DOI do Zenodo."
-title: "O Eixo do Espaguete: Desconstruindo o Animismo Digital via Representation Engineering"
+message: "Se você utilizar este software, por favor cite-o através do DOI do Zenodo."
+title: "naygno/the-spaghetti-axis: v1.0.0"
 authors:
   - family-names: "Barbosa Noia"
     given-names: "Naygno"
     affiliation: "Centro Universitário UFBRA — Ciência da Computação"
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.23267761
 repository-code: "https://github.com/naygno/the-spaghetti-axis"
 url: "https://zenodo.org/doi/10.5281/zenodo.23267761"
-type: article
+type: software
 keywords:
   - representation engineering
-  - llm interpretability
-  - steering vectors
-  - token collapse
+  - activation steering
+  - shannon entropy
+  - digital animism
+  - mechanistic interpretability
+  - green computing
+date-released: "2026-10-09"
