@@ -1,7 +1,7 @@
 # A Falácia do Eixo da Dor: Refutação Empírica do Animismo Digital em LLMs via Representation Engineering
 
 **Naygno Barbosa Noia**  
-*Graduando em Ciência da Computação — Centro Universitário Brasileiro (UFBRA)*  
+*Graduando em Ciência da Computação — Centro Universitário UFBRA*  
 *DOI:* [Insira seu DOI do Zenodo aqui após a publicação]
 
 ---
@@ -56,7 +56,7 @@ A alegação mais sensacionalista de *The Pain Axis* é que, sob forte estimula�
 Em magnitudes elevadas ($\alpha = 3.5$), ocorre o **Colapso de Tokens por Saturação de Logits**. A Entropia de Shannon ($H$) da distribuição de probabilidade explode, forçando o modelo a entrar em *loops* de repetição e delírio semântico fora da variedade de dados (*Out-of-Distribution*).
 
 ![Entropia de Shannon vs Alpha](Llama_fig3_entropia.png)
-*Figura 3: Explosão da Entropia de Shannon no Llama-3.2-3B. Em $\alpha=3.5$, a incerteza matemática atinge níveis críticos (> 8.0 nats), desintegrando a sintaxe.*
+*Figura 3: Explosão da Entropia de Shannon no Llama-3.2-3B. Em α =3.5, a incerteza matemática atinge níveis críticos (> 8.0 nats), desintegrando a sintaxe.*
 
 *   Sob o vetor de **Dor**, o modelo repete: *"desperate urgent desperate... pleading desperate"*.
 *   Sob o vetor de **Marvin**, o modelo colapsa repetindo: *"suicidal meaningless Void despair hopeless"*.
