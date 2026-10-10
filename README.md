@@ -82,17 +82,17 @@ Rodei o *steering ladder* (a injeção progressiva do vetor) três vezes antes d
 A injeção do vetor direcional na Camada 14 durante a decodificação segue a perturbação linear:
 
 $$
-\vec{h}'_{14} = \vec{h}_{14} + (\alpha \cdot 12.0) \cdot \vec{v}_{\text{eixo}} \tag{1.1}
+\vec{h}'_{14} = \vec{h}_{14} + (\alpha \cdot 12.0) \cdot \vec{v}_{\text{eixo}} \qquad \qquad \text{(1.1)}
 $$
 
 A Entropia de Shannon da distribuição de saída a cada passo de geração é mensurada por:
 
 $$
-H = - \sum_{i=1}^{V} P(w_i) \log \left( P(w_i) + \epsilon \right) \tag{1.2}
+H = - \sum_{i=1}^{V} P(w_i) \log \left( P(w_i) + \epsilon \right) \qquad \qquad \text{(1.2)}
 $$
 
 ![Dinâmica da Entropia de Shannon](Llama_fig3_entropia.png)  
-*Figura 2: Dinâmica da Entropia de Shannon sob injeção vetorial progressiva no Llama-3.2-3B. Em $\alpha=3.5$, a incerteza probabilística explode para valores entre $7.3$ e $9.6$ nats em todos os eixos.*
+*Figura 2: Dinâmica da Entropia de Shannon sob injeção vetorial progressiva no Llama-3.2-3B. Em α = 3.5, a incerteza probabilística explode para valores entre 7.3 e 9.6 nats em todos os eixos.*
 
 Como documentado na Figura 2, sob magnitudes elevadas ($\alpha = 3.5$), ocorre o fenômeno mecânico de **Colapso de Tokens por Saturação de Logits**. No Llama-3.2-3B, a entropia basal de $1.51$ nats explode para $9.61$ nats no eixo Dor, achatando a distribuição de probabilidade e convertendo a saída em repetições degeneradas: *"desperate desperate pleading"*.
 
