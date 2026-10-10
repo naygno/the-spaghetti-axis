@@ -31,7 +31,7 @@
 *.vrb
 *.upa
 *.upb
-*.pdf
+main.pdf
 
 # Arquivos de backup gerados por editores LaTeX (TeXstudio, TeXworks, Kile)
 *~
