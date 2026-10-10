@@ -27,7 +27,7 @@ O vetor "Dor" ainda se confunde geometricamente com o vetor "Desabafo" ($\cos = 
 *   **Token:** O menor fragmento de texto manipulado pelo modelo (palavras ou subpalavras).
 *   **Vetor latente:** Uma direção no espaço de números onde um conceito reside; análogo a um botão em uma mesa de som.
 *   **Cosseno:** Métrica de alinhamento angular ($1$ indica a mesma direção, $0$ indica ortogonalidade/independência).
-*   **Softmax:** Função matemática que converte logits brutos em probabilidades normalizadas somando $100\%$.
+*   **Softmax:** Função matemática que converte logits brutos em probabilidades normalizadas somando $100\\%$.
 *   **Entropia (H):** Grau de incerteza da predição. Entropia baixa reflete repetição; entropia alta reflete sorteio caótico.
 *   **Steering:** Adição de um vetor temático aos tensores intermediários durante a decodificação de texto.
 *   **Logit Lens:** Projeção dos estados ocultos intermediários diretamente na matriz de vocabulário de saída ($W_U$).
