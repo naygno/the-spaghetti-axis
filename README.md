@@ -82,7 +82,7 @@ Rodei o *steering ladder* (a injeção progressiva do vetor) três vezes antes d
 A injeção do vetor direcional na Camada 14 durante a decodificação segue a perturbação linear:
 
 $$
-\vec{h}'_{14} = \vec{h}_{14} + (\alpha \cdot 12.0) \cdot \vec{v}_{\text{eixo}} \qquad \qquad \text{(1.1)}
+\vec{h}'_{14} = \vec{h}_{14} + (\alpha \cdot 12.0) \cdot \vec{v}_{\text{eixo}} \qquad \qquad \qquad \,\, \text{(1.1)}
 $$
 
 A Entropia de Shannon da distribuição de saída a cada passo de geração é mensurada por:
