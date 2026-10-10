@@ -1,19 +1,33 @@
 cff-version: 1.2.0
-message: "Se você utilizar este software, por favor cite-o através do DOI do Zenodo."
-title: "naygno/the-spaghetti-axis: v1.0.0"
+message: "Se você utilizar este trabalho, por favor cite o artigo científico correspondente conforme indicado em preferred-citation."
+title: "the-spaghetti-axis: Replication Pipeline and Empirical Data"
 authors:
   - family-names: "Barbosa Noia"
     given-names: "Naygno"
     affiliation: "Centro Universitário UFBRA — Ciência da Computação"
-doi: 10.5281/zenodo.23267761
 repository-code: "https://github.com/naygno/the-spaghetti-axis"
-url: "https://zenodo.org/doi/10.5281/zenodo.23267761"
-type: software
-keywords:
-  - representation engineering
-  - activation steering
-  - shannon entropy
-  - digital animism
-  - mechanistic interpretability
-  - green computing
+version: "v1.0.1"
 date-released: "2026-10-09"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23267761
+    description: "DOI do arquivo de software/código no Zenodo"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Barbosa Noia"
+      given-names: "Naygno"
+      affiliation: "Centro Universitário UFBRA — Ciência da Computação"
+  title: "A Falácia do Eixo da Dor: Refutando a Senciência em LLMs com o Monstro do Espaguete Voador"
+  year: 2026
+  month: 10
+  doi: 10.5281/zenodo.23268666
+  url: "https://zenodo.org/records/23268666"
+  journal: "Zenodo (Preprint)"
+  keywords:
+    - representation engineering
+    - activation steering
+    - shannon entropy
+    - digital animism
+    - mechanistic interpretability
+    - green computing
